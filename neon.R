@@ -1,15 +1,15 @@
 # Ciclo luminoso de tubo fluorescente con R 
-# www.datosimagensonido.com
+# www.overfitting.net
 
 # Revelado lineal con DCRAW: dcraw -v -w -o 2 -4 -T neon.orf
-# Recorte del tubo (promediado de 60 pÌxeles de ancho) y conversiÛn de TIFF a PNG en Photoshop
+# Recorte del tubo (promediado de 60 p√≠xeles de ancho) y conversi√≥n de TIFF a PNG en Photoshop
 
 # Leemos imagen
 library(png)
 neon=readPNG("neon60px.png")
 neon=neon/max(neon)
 
-# Dibujamos gr·ficas
+# Dibujamos gr√°ficas
 xaxis=seq(0, 3472*60/3277, len=3472)
 
 plot(xaxis, neon[,,3], type='l', col="blue", main="Ciclo luminoso de tubo fluorescente", xlab="Tiempo (ms)", ylab="RGB")
