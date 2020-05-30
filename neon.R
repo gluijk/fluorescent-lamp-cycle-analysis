@@ -1,5 +1,6 @@
 # Ciclo luminoso de tubo fluorescente con R 
 # www.overfitting.net
+# https://www.overfitting.net/2016/12/ciclo-luminoso-de-tubo-fluorescente-con.html
 
 # Revelado lineal con DCRAW: dcraw -v -w -o 2 -4 -T neon.orf
 # Recorte del tubo (promediado de 60 píxeles de ancho) y conversión de TIFF a PNG en Photoshop
